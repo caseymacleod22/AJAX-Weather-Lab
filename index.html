@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>AJAX Weather Lab</h1>
+    <main>
+        <p>Weather For:</p>
+        <p id='weatherFor'></p><br>
+        <p>Temperature:</p>
+        <p id='temperature'></p><br>
+        <p>Feels Like:</p>
+        <p id='feelsLike'></p><br>
+        <p>Weather:</p>
+        <p id='weather'></p><br>
+    </main>
+    <form>
+        <label>City:
+            <input id='input'type="text" placeholder='e.g. New York City'>
+        </label>
+        <input type="submit" value="Get Weather Info">
+    </form>
+</body>
+</html>
